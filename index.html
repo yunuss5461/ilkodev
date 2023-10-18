@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap" rel="stylesheet">
+    <title>ODEV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('./plan2.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+
+        }
+
+        h1 {
+            color: white;
+            font-family: 'Heebo', sans-serif;
+        }
+
+        .bir {}
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        .logo img {
+            display: block;
+            height: 50px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+
+        .navbar ul li a:hover {
+            background-color: gray;
+        }
+
+
+        div.form {
+            text-align: center;
+            color: white;
+            text-decoration: 3px;
+        }
+
+        img.imgg {
+            width: 20%;
+            
+        }
+        .smedya{
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+            
+            
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1>NETFLIX</h1>
+        </div>
+        <ul>
+            <li><a class="bir" href="#">Anasayfa</a></li>
+            <li> <a class="bir" href="#">Hakkımızda</a></li>
+            <li><a class="bir" href="#">İletişim</a></li>
+            <li> <a class="bir" href="#">Galeri</a></li>
+
+        </ul>
+    </nav>
+    <br><br>
+    <div class="form">
+        <label>Adınız</label><br>
+        <input type="text" placeholder="Adınız"><br>
+        <label>Soyadınız</label><br>
+        <input type="text" placeholder="Soyadınz"><br>
+        <label>Şifre</label><br>
+        <input type="password" placeholder="Şifre Gir"><br>
+        <label>E-Posta</label><br>
+        <input type="email" placeholder="abc@gmail.com"><br>
+        <label>Şehir seç</label><br>
+        <select>
+            <option>Sakarya</option>
+            <option>Ankara</option>
+            <option>Bursa</option>
+        </select>
+    </div> <br>
+
+    <img class="imgg" src="./plan.jpg" alt="içerik resmidir"><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lOJpWdnsJqg?si=U_d4W_jnbLLIqYQS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96682.93769911557!2d30.372659199999994!3d40.776499199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1697657155307!5m2!1str!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <div class="sosyal">
+        <ul class="medya">
+
+            <li>
+                <a class="smedya" href="https://www.instagram.com/">Instagram</a>
+                <a class="smedya" href="https://www.facebook.com">Facebook</a>
+                <a class="smedya" href="https://www.github.com">GitHub</a>
+
+            </li>
+        </ul>
+
+    </div>
+
+
+</body>
+
+</html>
